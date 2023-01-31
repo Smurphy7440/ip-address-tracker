@@ -1,19 +1,13 @@
 # ip-address-tracker
 
 ## Project setup
+
+All you need is docker and docker-compose cli to run this project, run the following command in project root:
 ```
-npm install
+docker-compose up --build
 ```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Then navigate to http://localhost:3001:
 
-### Compiles and minifies for production
-```
-npm run build
-```
+![ip-address-tracker-image](./src/assets/images/ip-address-tracker.png)
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

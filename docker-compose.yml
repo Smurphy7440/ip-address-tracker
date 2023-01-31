@@ -1,0 +1,16 @@
+version: '3.7'
+
+services:
+
+  service_1:
+    container_name: ip_address_tracker
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - '.:/app'
+      - '/app/node_modules'
+    ports:
+      - 3001:8080
+    # environment:
+    #   - CHOKIDAR_USEPOLLING=true
